@@ -71,6 +71,7 @@ namespace Microsoft.Azure.Devices.Provisioning.Client.Samples
 
             await iotClient.CloseAsync();
             Console.WriteLine("Finished.");
+            Console.ReadLine();
         }
 
         private ProvisioningTransportHandler GetTransportHandler()
